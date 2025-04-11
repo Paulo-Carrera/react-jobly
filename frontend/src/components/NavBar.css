@@ -1,0 +1,44 @@
+/* NavBar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  nav .auth-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .auth-links a {
+    margin: 0 10px;
+  }
+  
+  nav .auth-links .logout {
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  
